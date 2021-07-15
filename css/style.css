@@ -1,0 +1,156 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: #444;
+  position: fixed;
+  z-index: 3333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container_main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.name-com {
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+.info {
+  font-size: 16px;
+}
+
+.nav-links {
+  font-size: 16px;
+  margin-left: 35px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.nav-links:hover {
+  padding: 8px 10px;
+  background: #080808;
+  border-radius: 5px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  min-height: 554px;
+  position: relative;
+}
+
+.about__intro:before {
+  content: "";
+  background: url(../img/2.jpg) 0 0 no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 554px;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+}
+
+.about_overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 110px;
+}
+
+.info_block {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid white;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.info-name {
+  font-size: 24px;
+  color: #272229;
+  margin-bottom: 10px;
+}
+
+.info-adress {
+  margin-top: 15px;
+}
+
+.block-1 {
+  padding: 20px 0;
+}
+
+.block1-title {
+  font-size: 28px;
+  color: dodgerblue;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
